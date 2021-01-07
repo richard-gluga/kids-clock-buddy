@@ -73,6 +73,10 @@
     z-index: 10;
 }
 
+#settings a {
+    color: yellow;
+}
+
 .option {
     margin-bottom: 18px;
     display: flex;

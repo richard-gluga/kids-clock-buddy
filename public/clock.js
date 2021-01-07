@@ -303,6 +303,8 @@ var myApp = (function () {
 
     return {
         start: function () {
+            myUtils.initScreenWakeLock();
+            
             // Load main options.
             options = myOptions.loadOptions(function () {
                 renderStyle2(false, true);  // Handler for when settings are updated.
