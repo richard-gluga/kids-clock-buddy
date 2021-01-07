@@ -303,7 +303,15 @@ var myApp = (function () {
 
     return {
         start: function () {
+            // Prevent screen from going to sleep when tab is active.
             myUtils.initScreenWakeLock();
+
+            // register service worker if supported for offline mode.
+            if ("serviceWorker" in navigator) {
+                navigator.serviceWorker
+                    .register("sw.js")
+                    .then(() => console.log('registered service worker!'));
+            }
             
             // Load main options.
             options = myOptions.loadOptions(function () {
