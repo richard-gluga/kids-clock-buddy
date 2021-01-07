@@ -8,7 +8,7 @@ var myOptions = (function () {
     }
 
     var showConditionalRatingLink_ = function () {
-        if (myUtils.isAndroid()) {
+        if (myUtils.isAndroid() && false) {  // TODO - this part doesn't work in web app mode.
             $('#androidRating').css('display', 'block');
         }
     }

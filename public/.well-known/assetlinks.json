@@ -1,0 +1,5 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target" : { "namespace": "android_app", "package_name": "com.gluga.clockbot",
+                 "sha256_cert_fingerprints": ["E4:22:69:21:44:17:56:56:1D:13:41:63:4A:E3:5A:C1:87:A2:AD:DF:E7:4E:52:B5:36:D6:63:71:38:9F:2F:24"] }
+  }]
