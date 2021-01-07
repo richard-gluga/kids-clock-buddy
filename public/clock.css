@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: black;
+}
+
+#drawing {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#glass {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+    opacity: 0;
+    z-index: 2;
+}
+
+#landscapeTimeSliderContainer {
+    visibility: hidden;
+    position: fixed;
+    top: 70px;
+    right: 22px;
+    bottom: 70px;
+    z-index: 3;
+}
+
+#portraitTimeSliderContainer {
+    visibility: hidden;
+    position: fixed;
+    bottom: 22px;
+    right: 30px;
+    left: 30px;
+    z-index: 3;
+}
+
+svg {
+    height: 100%;
+    width: 100%;
+}
