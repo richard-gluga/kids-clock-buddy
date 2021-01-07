@@ -8,6 +8,8 @@ When you travel, just put the app on your phone and rest it somewhere the kids c
 
 As kids grow, start to enable more features like the minute and seconds circles.
 
+Try it now at https://kids-clock-buddy.web.app
+
 # Tech Details
 
 This is a HTML/JavaScript web app using basic SVG rendering. The app is hosted on Firebase at
